@@ -1,0 +1,12 @@
+{
+  "name": "using-react-in-monorepo",
+  "version": "1.0.0",
+  "description": "Example for using react in a monorepo",
+  "main": "index.js",
+  "author": "SavvyShah",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

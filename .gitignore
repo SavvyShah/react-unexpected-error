@@ -1,0 +1,13 @@
+# Javascript gitignore
+node_modules
+.DS_Store
+.env
+
+yarn.error
+yarn.log
+.log
+
+# Build directories
+**/dist
+**/build
+**/lib
