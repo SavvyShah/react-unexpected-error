@@ -15,6 +15,11 @@ const config = {
     library: "library",
     libraryTarget: "umd",
   },
+  // exclude react and react-dom from output
+  externals: {
+    react: "react",
+    "react-dom": "react-dom",
+  },
   devServer: {
     open: true,
     host: "localhost",
